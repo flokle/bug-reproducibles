@@ -13,6 +13,13 @@ import jakarta.persistence.TypedQuery;
 
 public class PolymorphismBug {
 
+	/**
+	 * Reproduction example for bug:
+	 * 
+	 * https://hibernate.atlassian.net/browse/HHH-15944
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// runCase1();
 		runCase2();
