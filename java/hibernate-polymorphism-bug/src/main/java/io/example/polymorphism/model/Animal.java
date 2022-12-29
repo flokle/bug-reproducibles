@@ -6,5 +6,5 @@ public interface Animal {
 	
     public Set<Person> getOwners();
 
-
+    public void addToOwners(Person person);
 }

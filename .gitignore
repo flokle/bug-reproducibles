@@ -1,14 +1,10 @@
 
-java/hibernate.polymorphism.bug/.gradle/
+java/hibernate-polymorphism-bug/.settings/
 
-java/hibernate.polymorphism.bug/.idea/
+java/hibernate-polymorphism-bug/.classpath
 
-java/hibernate.polymorphism.bug/.settings/
+java/hibernate-polymorphism-bug/.project
 
-java/hibernate.polymorphism.bug/.project
+java/hibernate-polymorphism-bug/bin/
 
-java/hibernate.polymorphism.bug/.classpath
-
-java/hibernate.polymorphism.bug/build/
-
-java/hibernate.polymorphism.bug/bin/
+java/hibernate-polymorphism-bug/.gradle/
