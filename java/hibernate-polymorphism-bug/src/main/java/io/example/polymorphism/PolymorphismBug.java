@@ -61,7 +61,7 @@ public class PolymorphismBug {
 		Person owner = entityManager.find(Person.class, ownerId);
 
 		TypedQuery<Animal> query = entityManager.createQuery(
-				"SELECT p FROM io.example.polymorphism.model.Animal p WHERE p.owner = :owner", Animal.class);
+				"SELECT an FROM io.example.polymorphism.model.Animal an WHERE an.owner = :owner", Animal.class);
 		query.setParameter("owner", owner);
 		List<Animal> animals = query.getResultList();
 		
