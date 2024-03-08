@@ -8,3 +8,7 @@ java/hibernate-polymorphism-bug/.project
 java/hibernate-polymorphism-bug/bin/
 
 java/hibernate-polymorphism-bug/.gradle/
+
+.DS_Store
+
+java/quarkus-orm-package-info-ignored-bug/.mvn/
