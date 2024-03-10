@@ -12,3 +12,9 @@ java/hibernate-polymorphism-bug/.gradle/
 .DS_Store
 
 java/quarkus-orm-package-info-ignored-bug/.mvn/
+
+java/hibernate-inheritance-select-bug/.settings/
+
+java/hibernate-inheritance-select-bug/.classpath
+
+java/hibernate-inheritance-select-bug/.project
