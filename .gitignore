@@ -18,3 +18,11 @@ java/hibernate-inheritance-select-bug/.settings/
 java/hibernate-inheritance-select-bug/.classpath
 
 java/hibernate-inheritance-select-bug/.project
+
+java/hibernate-group-by-bug/.settings/
+
+java/hibernate-group-by-bug/bin/
+
+java/hibernate-group-by-bug/.classpath
+
+java/hibernate-group-by-bug/.project

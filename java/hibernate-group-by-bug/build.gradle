@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group "org.example"
+version "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+   	implementation "org.hibernate.orm:hibernate-core:6.4.4.Final"
+   	implementation "com.h2database:h2:2.1.214"
+    implementation "io.zonky.test:embedded-postgres:2.0.6"
+    implementation 'junit:junit:4.13.2'    
+}
