@@ -21,7 +21,7 @@ import jakarta.persistence.TypedQuery;
 /**
  * Reproduction test for bug:
  * 
- * https://hibernate.atlassian.net/browse/HHH-
+ * https://hibernate.atlassian.net/browse/HHH-17837
  * 
  */
 public class GroupByBug {
@@ -35,7 +35,6 @@ public class GroupByBug {
 	 */
 	@Test
 	public void testSelectColumnsOnPostgres() {
-		// Has been fixed in 6.2.0 and reintroduced in 6.2.4
 		PGSimpleDataSource ds = (PGSimpleDataSource) pg.getEmbeddedPostgres().getPostgresDatabase();
 		EntityManager entityManager = createEntityManager(ds.getUser(), ds.getPassword(), ds.getUrl());
 		testWithDefinedColumns(entityManager);
