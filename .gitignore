@@ -28,3 +28,9 @@ java/hibernate-group-by-bug/.classpath
 java/hibernate-group-by-bug/.project
 
 java/hibernate-group-by-bug/.idea/
+
+java/hibernate-persist-with-any-bug/.classpath
+
+java/hibernate-persist-with-any-bug/.project
+
+java/hibernate-persist-with-any-bug/.settings/
