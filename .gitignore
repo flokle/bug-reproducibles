@@ -26,3 +26,5 @@ java/hibernate-group-by-bug/bin/
 java/hibernate-group-by-bug/.classpath
 
 java/hibernate-group-by-bug/.project
+
+java/hibernate-group-by-bug/.idea/
