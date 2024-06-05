@@ -1,7 +1,5 @@
 package io.example.bug;
 
-import java.util.UUID;
-
 import io.example.bug.model.Job;
 import io.example.bug.model.Person;
 import jakarta.persistence.EntityManager;
@@ -13,7 +11,7 @@ public class PersistWithAnyBug {
 	/**
 	 * Reproduction example for bug:
 	 * 
-	 * https://hibernate.atlassian.net/browse/HHH-unknown
+	 * https://hibernate.atlassian.net/browse/HHH-18233
 	 * 
 	 */
 	public static void main(String[] args) {

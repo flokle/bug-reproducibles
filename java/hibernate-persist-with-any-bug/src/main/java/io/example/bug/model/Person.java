@@ -7,6 +7,7 @@ import org.hibernate.annotations.AnyDiscriminator;
 import org.hibernate.annotations.AnyDiscriminatorValue;
 import org.hibernate.annotations.AnyKeyJavaClass;
 
+import io.example.bug.PersistWithAnyBug;
 import io.example.bug.model.subtypes.ConcreteTypeForAny;
 import io.example.bug.model.subtypes.SuperTypeForAny;
 import jakarta.persistence.Column;
@@ -20,17 +21,18 @@ import jakarta.persistence.JoinColumn;
 public class Person {
 
 	/**
-	 * Changing the id to type long and adding
+	 * Adding
 	 * 
 	 * @GeneratedValue(strategy = GenerationType.IDENTITY)
 	 * 
-	 * fixes the error
+	 * fixes the error (don't forget to remove the 
+	 * setId-calls in {@link PersistWithAnyBug})
 	 */
 	@Id
 	protected long id;
 
 	/**
-	 * Setting this relation @Transient fixes the error
+	 * Setting this relation @Transient / removing it fixes the error
 	 */
 	@Any(fetch = FetchType.LAZY)
 	@AnyDiscriminator(value = DiscriminatorType.STRING)
