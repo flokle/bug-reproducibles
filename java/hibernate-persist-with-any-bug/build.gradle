@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group "org.example"
@@ -12,4 +13,9 @@ repositories {
 dependencies {
    	implementation "org.hibernate.orm:hibernate-core:6.5.2.Final"
     implementation "com.h2database:h2:2.1.214"
+}
+
+application {
+    mainClass = 'io.example.bug.PersistWithAnyBug'
+    applicationDefaultJvmArgs = ['-ea']
 }
