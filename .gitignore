@@ -34,3 +34,7 @@ java/hibernate-persist-with-any-bug/.classpath
 java/hibernate-persist-with-any-bug/.project
 
 java/hibernate-persist-with-any-bug/.settings/
+
+java/hibernate-persist-with-any-bug/.idea/
+
+java/hibernate-persist-with-any-bug/build/
